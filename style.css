@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Montserrat:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    background-color: rgb(178, 207, 159);
+    padding: 2em;
+}
+.navbar-brand{
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(253, 253, 253);
+}
+
+.navbar-brand:hover{
+    color: white;
+}
+
+.ContainerFooter{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: rgb(178, 207, 159);
+}
+.FatherFooter{
+    width: 100%;
+}
+.HijoTituloFooter{
+    width: 100%;
+
+}
+.HijoTituloFooter h3{
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 1em;
+    color: white;
+    text-align: center;
+}
+
+.HijoListaFooter{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+.HijoListaFooter ul{
+    padding: 0;
+}
+.HijoListaFooter li{
+    color: rgb(55, 77, 52);
+    display: inline;
+    padding: 1em;
+    list-style: none;
+
+}
+
+.HijoCopyrightFooter{
+    display: flex;
+    justify-content: center;
+}
+
+.HijoCopyrightFooter p{
+    border-top: 2px solid rgb(136, 168, 136);
+    padding-top: 1em;
+    color: rgb(55, 77, 52);
+}
+
+
+.PrimeraSeccion-main{
+    width: 100%;
+}
+.ContainerPrimeraSeccion{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.PadrePrimeraSeccion{
+    padding: 2em;
+    width: 100%;
+}
+
+.HijoImagenes{
+
+}
+.HijoImagenes img{
+    width: 50%;
+    margin-left: 0.3em;
+}
+
+.HijoTituloTexto{
+    height: 100%;
+    background-color: rgb(99, 133, 86);
+    display: flex;
+    align-items: center;
+}
+.CajitaTituloTexto{ 
+    padding: 1em;
+}
+.HijoTituloTexto h1{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+.HijoTituloTexto p{
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    color: white;
+}
+
+
+.SegundaSeccion-main{
+    width: 100%;
+}
+
+.ContainerSegundaSeccion{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.PadreSegundaSeccion{
+    width: 50%;
+}
+.HijoImagenes2{
+    display: flex;
+    justify-content: center;
+}
+.PadreSegundaSeccion2{
+    width: 50%;
+}
+.HijoTituloTexto2{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.CajitaTituloTexto2{
+    padding: 1em;
+    border-left: 3px solid rgb(184, 235, 189);
+    border-bottom: 3px solid rgb(184, 235, 189);
+}
+
+.CajitaTituloTexto2 h1{
+    font-family: 'Montserrat', sans-serif;
+}
+.CajitaTituloTexto2 ul{
+    font-family: 'Montserrat', sans-serif;
+}
