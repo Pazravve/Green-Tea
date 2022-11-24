@@ -4,6 +4,7 @@
     padding: 0;
     margin: 0;
 }
+
 .navbar{
     background-color: rgb(178, 207, 159);
     padding: 2em;
@@ -32,6 +33,7 @@
 }
 .HijoTituloFooter h3{
     font-family: 'Montserrat', sans-serif;
+    padding-top: 1em;
     padding-bottom: 1em;
     color: white;
     text-align: center;
@@ -80,9 +82,6 @@
     width: 100%;
 }
 
-.HijoImagenes{
-
-}
 .HijoImagenes img{
     width: 50%;
     margin-left: 0.3em;
@@ -110,6 +109,7 @@
 
 .SegundaSeccion-main{
     width: 100%;
+    margin-top: 5em;
 }
 
 .ContainerSegundaSeccion{
@@ -123,6 +123,9 @@
 .HijoImagenes2{
     display: flex;
     justify-content: center;
+}
+.HijoImagenes2 img{
+    width: 80%;
 }
 .PadreSegundaSeccion2{
     width: 50%;
@@ -143,4 +146,107 @@
 }
 .CajitaTituloTexto2 ul{
     font-family: 'Montserrat', sans-serif;
+}
+
+
+.TerceraSeccion-main{
+    width: 100%;
+}
+
+.ContainerTerceraSeccion{
+    width: 100%;
+    display: flex;
+    justify-self: center;
+}
+
+.TerceraSeccion-main h1{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 255, 255);
+    padding: 1.5em;
+    background-color: rgb(60, 114, 100);
+    margin-top: 1em;
+}
+
+.Contenedorasd{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 1em;
+    margin-bottom: 5em;
+
+}
+
+.Benefit-1 i{
+    width: 100%;
+    text-align: center;
+    font-size: 3em;
+    color: rgb(92, 139, 98);
+    padding: 1em;
+}
+
+.Benefit-1 i:hover{
+    font-size: 3.2em;
+    transition: 0.5s;
+    color: rgb(54, 110, 61);
+    padding: 0.8em;
+    cursor: pointer;
+}
+
+.Benefit-2 i:hover{
+    font-size: 3.2em;
+    transition: 0.5s;
+    color: rgb(54, 110, 61);
+    padding: 0.8em;
+    cursor: pointer;
+}
+
+
+.Benefit-3 i:hover{
+    font-size: 3.2em;
+    transition: 0.5s;
+    color: rgb(54, 110, 61);
+    padding: 0.8em;
+    cursor: pointer;
+}
+
+
+.Benefit-2 i{
+    width: 100%;
+    text-align: center;
+    font-size: 3em;
+    color: rgb(92, 139, 98);
+    padding: 1em;
+}
+
+.Benefit-3 i{
+    width: 100%;
+    text-align: center;
+    font-size: 3em;
+    color: rgb(92, 139, 98);
+    padding: 1em;
+}
+
+.Benefit-1 h2{
+    width: 100%;
+    text-align: center;
+    color: rgb(118, 121, 119);
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 1em;
+}
+
+.Benefit-2 h2{
+    width: 100%;
+    text-align: center;
+    color: rgb(118, 121, 119);
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 1em;
+}
+
+.Benefit-3 h2{
+    width: 100%;
+    text-align: center;
+    color: rgb(118, 121, 119);
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 1em;
 }
