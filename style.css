@@ -69,42 +69,63 @@
 
 
 .PrimeraSeccion-main{
-    width: 100%;
+    margin-top: 0.6em;
 }
-.ContainerPrimeraSeccion{
+.PadrePrimeraSeccion{
     display: flex;
     justify-content: center;
     width: 100%;
 }
 
-.PadrePrimeraSeccion{
+.HijoTituloTexto{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    padding: 1em;
+    background-color:  rgb(153, 184, 132);
+}
+.CajitaTituloTexto{
+
     padding: 2em;
-    width: 100%;
+
+}
+
+.CajitaTituloTexto p{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.CajitaTituloTexto h1{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
 }
 
 .HijoImagenes img{
-    width: 50%;
-    margin-left: 0.3em;
+    width: 100%;
 }
 
-.HijoTituloTexto{
-    height: 100%;
-    background-color: rgb(99, 133, 86);
-    display: flex;
-    align-items: center;
-}
-.CajitaTituloTexto{ 
-    padding: 1em;
-}
-.HijoTituloTexto h1{
-    font-family: 'Montserrat', sans-serif;
-    color: white;
-}
-.HijoTituloTexto p{
-    font-family: 'Montserrat', sans-serif;
-    width: 100%;
-    color: white;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .SegundaSeccion-main{
@@ -130,11 +151,7 @@
 .PadreSegundaSeccion2{
     width: 50%;
 }
-.HijoTituloTexto2{
-    height: 100%;
-    display: flex;
-    align-items: center;
-}
+
 .CajitaTituloTexto2{
     padding: 1em;
     border-left: 3px solid rgb(184, 235, 189);
@@ -147,6 +164,9 @@
 .CajitaTituloTexto2 ul{
     font-family: 'Montserrat', sans-serif;
 }
+
+
+
 
 
 .TerceraSeccion-main{
@@ -177,12 +197,10 @@
 
 }
 
-.Benefit-1 i{
-    width: 100%;
-    text-align: center;
-    font-size: 3em;
-    color: rgb(92, 139, 98);
-    padding: 1em;
+
+.Lord-Icon-Div{
+    display: flex;
+    justify-content: center;
 }
 
 .Benefit-1 i:hover{
@@ -249,4 +267,179 @@
     color: rgb(118, 121, 119);
     font-family: 'Montserrat', sans-serif;
     margin-bottom: 1em;
+}
+
+
+.CuartaSeccion-main{
+    width: 100%;
+}
+.Father-vision-mission{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.Hijo-vision-mission h2{
+    text-align: center;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    padding: 2em;
+}
+.Ajuste-img{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.Ajuste-img img{
+    width: 60%;
+}
+
+.Cards-information{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1em;
+    width: 100%;
+}
+
+.card-title{
+    font-family: 'Montserrat', sans-serif;
+}
+.card-text{
+    font-family: 'Montserrat', sans-serif;
+    width: 60%;
+}
+
+.Cards-information2{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+.Seccion-about{
+    width: 100%;
+}
+.Father-aboutus{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.Container-Banner-Photo{
+    width: 100%;
+}
+.Padre-Banner-Photo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.Padre-Banner-Photo img{
+    margin-top: 1em;
+    width: 85%;
+}
+
+.Padre-Titulo-About{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 2em;
+    margin-left: 0;
+}
+.Padre-Titulo-About h1{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.Container-Cards-About{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.Container-Cards-About{
+    padding: 1em;
+
+}
+.card-body h3{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.card-body p{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+.card{
+    margin: 1em;
+}
+lord-icon{
+    width: 100%;
+    text-align: center;
+}
+
+.Container-Services{
+    width: 100%;
+}
+
+.Padre-Services{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 4em;
+    margin-bottom: 4em;
+}
+.Our-Services{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.border-line{
+    
+}
+.Service1{
+    margin: 1em;
+}
+.Service2{
+    margin: 1em;
+}
+.Service3{
+    margin: 1em;
+}
+
+.Service1 h3{
+    font-size: 27px;
+    text-align: center;
+}
+.Service2 h3{
+    font-size: 27px;
+    text-align: center;
+}
+.Service3 h3{
+    font-size: 27px;
+    text-align: center;
+}
+.Service-Text{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.Service-Text p{
+    text-align: center;
+    width: 70%;
+    font-size: 15px;
+}
+.Service-Icon{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1em;
+}
+.Service-Icon i{
+    background-color: rgb(95, 160, 104);
+    font-size: 2em;
+    color: white;
+    padding: 1em;
+    border-radius: 200px;
 }
