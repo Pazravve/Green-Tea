@@ -548,8 +548,11 @@ label{
     height:100px;
     color: white;
 }
-::placeholder{
-    color: rgb(241, 241, 241);
+.information1::placeholder{
+    color: white;
+}
+.information2::placeholder{
+    color: white;
 }
 .submitButton{
     color: white;
