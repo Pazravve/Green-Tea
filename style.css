@@ -4,6 +4,9 @@
     padding: 0;
     margin: 0;
 }
+body{
+    font-family: 'Montserrat', sans-serif;
+}
 
 .navbar{
     background-color: rgb(178, 207, 159);
@@ -67,106 +70,62 @@
     color: rgb(55, 77, 52);
 }
 
-
 .PrimeraSeccion-main{
-    margin-top: 0.6em;
+    margin-bottom: 10em;
 }
-.PadrePrimeraSeccion{
+.Container-PrimeraSeccion{
+    width: 100%;
     display: flex;
     justify-content: center;
+}
+.Container-PrimeraSeccion{
+    width: 100%;
+    display: flex;
+    
+}
+.Padre-PrimeraSeccion{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+
+}
+.info-texto{
     width: 100%;
 }
-
-.HijoTituloTexto{
-    display: flex;
-    align-items: center;
-    width: 50%;
+.info-texto h1{
     padding: 1em;
-    background-color:  rgb(153, 184, 132);
-}
-.CajitaTituloTexto{
-
-    padding: 2em;
-
-}
-
-.CajitaTituloTexto p{
     font-family: 'Montserrat', sans-serif;
-    color: white;
 }
 
-.CajitaTituloTexto h1{
+.info-texto p{
     font-family: 'Montserrat', sans-serif;
-    color: white;
-}
-
-.HijoImagenes img{
-    width: 100%;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.SegundaSeccion-main{
-    width: 100%;
-    margin-top: 5em;
-}
-
-.ContainerSegundaSeccion{
-    display: flex;
-    justify-content: center;
-    width: 100%;
-}
-.PadreSegundaSeccion{
-    width: 50%;
-}
-.HijoImagenes2{
-    display: flex;
-    justify-content: center;
-}
-.HijoImagenes2 img{
     width: 80%;
-}
-.PadreSegundaSeccion2{
-    width: 50%;
+    padding-left: 3em;
 }
 
-.CajitaTituloTexto2{
-    padding: 1em;
-    border-left: 3px solid rgb(184, 235, 189);
-    border-bottom: 3px solid rgb(184, 235, 189);
-}
-
-.CajitaTituloTexto2 h1{
-    font-family: 'Montserrat', sans-serif;
-}
-.CajitaTituloTexto2 ul{
-    font-family: 'Montserrat', sans-serif;
+.Imagenes-Principales{
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 
+.Segunda-Seccion{
+    width: 100%;
+}
+.Contenedor-Contenidos{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.Padre-Imagen-Contenidos{
+    display: flex;
+    justify-content: flex-start;
+    background-color: aquamarine;
+}
+.Padre-Imagen-Contenidos img{
 
+}
 
 
 .TerceraSeccion-main{
@@ -396,9 +355,7 @@ lord-icon{
     font-family: 'Montserrat', sans-serif;
     
 }
-.border-line{
-    
-}
+
 .Service1{
     margin: 1em;
 }
@@ -443,3 +400,164 @@ lord-icon{
     padding: 1em;
     border-radius: 200px;
 }
+
+
+.Section-Message{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.div-ajustador{
+    width: 60%;
+}
+.Container-TextUs{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.Padre-Title-Message{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+.Container-Form{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3em;
+
+}
+.Section-Message{
+    padding: 1em;
+}
+.emailtext{
+    padding: 10px;
+}
+
+.textarea{
+    padding: 10px;
+
+}
+.send{
+    padding: 15px;
+    margin: 1em;
+    color: white;
+    background-color: rgb(111, 167, 114);
+    border: 1px;
+    border-radius: 200px;
+}
+.Send-Message{
+    display: flex;
+    justify-content: center;
+}
+
+.container-Try{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-image: url(./assets/pexels-cottonbro-studio-4503732.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 200px 0 200px 0;
+
+}
+.padre-Try h3{
+    color: white;
+}
+
+.mainContact{
+}
+
+
+
+.SectionContact{
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url(./assets/pexels-myicahel-tamburini-2043739.jpg);
+
+
+}
+
+.ContainerContact{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.Information{
+    width: 50%;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.Contact{
+    margin-top: 6em;
+}
+.Contact a{
+    color: white;
+    text-decoration: none;
+}
+.phone{
+    display: flex;
+}
+.phone p{
+    margin-left: 1em;
+}
+
+.email{
+    display: flex;
+}
+.email a{
+    margin-left: 1em;
+}
+.FormContact{
+    width: 50%;
+    justify-content: center;
+    display: flex;
+}
+
+.form{
+    width: 50%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    margin-bottom: 1em;
+    margin-top: 1em;
+    color: white;
+}
+.information1{
+    color: white;
+    background : inherit;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-bottom: 1px solid white;
+    padding: 10px;
+}
+
+.information2{
+    background : inherit;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-bottom: 1px solid white;
+    padding: 10px;
+    width:400px;
+    height:100px;
+}
+::placeholder{
+    color: rgb(241, 241, 241);
+}
+.submitButton{
+    color: white;
+    background-color: rgb(0, 0, 0);
+    border: 1px;
+    border-radius: 5px;
+    padding: 7px;
+    width: 30%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
