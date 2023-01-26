@@ -13,7 +13,6 @@ body{
     padding: 2em;
 }
 .navbar-brand{
-    font-family: 'Montserrat', sans-serif;
     color: rgb(253, 253, 253);
 }
 
@@ -35,7 +34,6 @@ body{
 
 }
 .HijoTituloFooter h3{
-    font-family: 'Montserrat', sans-serif;
     padding-top: 1em;
     padding-bottom: 1em;
     color: white;
@@ -51,11 +49,12 @@ body{
 .HijoListaFooter ul{
     padding: 0;
 }
-.HijoListaFooter li{
+.HijoListaFooter a{
     color: rgb(55, 77, 52);
     display: inline;
     padding: 1em;
     list-style: none;
+    text-decoration: none;
 
 }
 
@@ -94,11 +93,9 @@ body{
 }
 .info-texto h1{
     padding: 1em;
-    font-family: 'Montserrat', sans-serif;
 }
 
 .info-texto p{
-    font-family: 'Montserrat', sans-serif;
     width: 80%;
     padding-left: 3em;
 }
@@ -123,10 +120,6 @@ body{
     justify-content: flex-start;
     background-color: aquamarine;
 }
-.Padre-Imagen-Contenidos img{
-
-}
-
 
 .TerceraSeccion-main{
     width: 100%;
@@ -140,7 +133,6 @@ body{
 
 .TerceraSeccion-main h1{
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
     color: rgb(255, 255, 255);
     padding: 1.5em;
     background-color: rgb(60, 114, 100);
@@ -162,61 +154,21 @@ body{
     justify-content: center;
 }
 
-.Benefit-1 i:hover{
-    font-size: 3.2em;
-    transition: 0.5s;
-    color: rgb(54, 110, 61);
-    padding: 0.8em;
-    cursor: pointer;
-}
-
-.Benefit-2 i:hover{
-    font-size: 3.2em;
-    transition: 0.5s;
-    color: rgb(54, 110, 61);
-    padding: 0.8em;
-    cursor: pointer;
-}
 
 
-.Benefit-3 i:hover{
-    font-size: 3.2em;
-    transition: 0.5s;
-    color: rgb(54, 110, 61);
-    padding: 0.8em;
-    cursor: pointer;
-}
-
-
-.Benefit-2 i{
-    width: 100%;
-    text-align: center;
-    font-size: 3em;
-    color: rgb(92, 139, 98);
-    padding: 1em;
-}
-
-.Benefit-3 i{
-    width: 100%;
-    text-align: center;
-    font-size: 3em;
-    color: rgb(92, 139, 98);
-    padding: 1em;
-}
 
 .Benefit-1 h2{
     width: 100%;
     text-align: center;
     color: rgb(118, 121, 119);
-    font-family: 'Montserrat', sans-serif;
     margin-bottom: 1em;
 }
+
 
 .Benefit-2 h2{
     width: 100%;
     text-align: center;
     color: rgb(118, 121, 119);
-    font-family: 'Montserrat', sans-serif;
     margin-bottom: 1em;
 }
 
@@ -224,7 +176,6 @@ body{
     width: 100%;
     text-align: center;
     color: rgb(118, 121, 119);
-    font-family: 'Montserrat', sans-serif;
     margin-bottom: 1em;
 }
 
@@ -241,7 +192,6 @@ body{
 .Hijo-vision-mission h2{
     text-align: center;
     color: white;
-    font-family: 'Montserrat', sans-serif;
     padding: 2em;
 }
 .Ajuste-img{
@@ -260,11 +210,7 @@ body{
     width: 100%;
 }
 
-.card-title{
-    font-family: 'Montserrat', sans-serif;
-}
 .card-text{
-    font-family: 'Montserrat', sans-serif;
     width: 60%;
 }
 
@@ -304,8 +250,9 @@ body{
     margin: 2em;
     margin-left: 0;
 }
-.Padre-Titulo-About h1{
-    font-family: 'Montserrat', sans-serif;
+.Padre-Titulo-About h2{
+    border-bottom: 3px solid rgb(161, 199, 161);
+    color: rgb(75, 88, 77);
 }
 
 .Container-Cards-About{
@@ -320,7 +267,6 @@ body{
 }
 .card-body h3{
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
 }
 .card-body p{
     display: flex;
@@ -344,15 +290,18 @@ lord-icon{
     display: flex;
     justify-content: center;
     width: 100%;
-    font-family: 'Montserrat', sans-serif;
     margin-top: 4em;
     margin-bottom: 4em;
+}
+
+.Padre-Services h2{
+    border-bottom: 3px solid rgb(161, 199, 161);
+    color: rgb(75, 88, 77);
 }
 .Our-Services{
     width: 100%;
     display: flex;
     justify-content: space-between;
-    font-family: 'Montserrat', sans-serif;
     
 }
 
@@ -416,7 +365,6 @@ lord-icon{
     justify-content: center;
 }
 .Padre-Title-Message{
-    font-family: 'Montserrat', sans-serif;
     margin-top: 2em;
     margin-bottom: 2em;
 }
@@ -505,6 +453,7 @@ lord-icon{
 
 .email{
     display: flex;
+    align-items: center;
 }
 .email a{
     margin-left: 1em;
@@ -564,4 +513,76 @@ label{
     margin-top: 1em;
     margin-bottom: 1em;
 }
+.info{
+    display: flex;
+    justify-content: center;
+}
 
+.info h1{
+    border-bottom: 3px solid rgb(161, 199, 161);
+    color: rgb(75, 88, 77);
+}
+.welcome{
+    display: flex;
+    justify-content: center;
+
+}
+
+.welcome h1{
+    border-bottom: 3px solid rgb(161, 199, 161);
+    color: rgb(75, 88, 77);
+    margin-bottom: 1em;
+}
+
+
+#carouselExampleControlsNoTouching{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 2em;
+}
+
+.carousel-inner{
+    width: 90%;
+}
+
+.allProducts{
+    width: 90%;
+
+}
+
+.allCards{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.fa-solid{
+    font-size: 30px;
+    color: rgb(92, 158, 86);
+    margin-left: 15px;
+
+}
+
+.imgProductos{
+    width: 40%;
+}
+
+.boton-agregar{
+    background-color: rgb(161, 199, 161);
+    border: 1px;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.boton-agregar:hover{
+    background-color: rgb(121, 184, 121);
+    transition: 0.3s;
+}
+.card-body p{
+    display: flex;
+    justify-content: flex-start;
+}
