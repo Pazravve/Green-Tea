@@ -641,3 +641,19 @@ label{
     background-color: rgb(239, 252, 238);
     padding: 1em;
 }
+
+.cards-container{ 
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.allCards {
+    display: flex;
+    width: 33%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.allCards img{
+    height: 70%;
+}

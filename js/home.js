@@ -8,6 +8,9 @@ const contadorCarrito = document.getElementById('contadorCarrito')
 
 const precioTotal = document.getElementById('precioTotal')
 
+const cardsContainer = document.querySelector(".cards-container");
+
+
 document.addEventListener('DOMContentLoaded', () =>{
     if(localStorage.getItem('carrito')){
         carrito = JSON.parse(localStorage.getItem('carrito'))
@@ -24,9 +27,11 @@ botonVaciar.addEventListener('click', ()=>{
     actualizarCarrito()
 })
 stockProductos.forEach((producto) => {
+
     const div = document.createElement('div')
+
+    div.classList.add('allCards'); 
     div.innerHTML += `
-    <div class="allCards">
     <div class="card" style="width: 20rem;">
         <img src=${producto.img}>
         <div class="card-body">
@@ -36,9 +41,10 @@ stockProductos.forEach((producto) => {
             <button id="agregar${producto.id}" class="boton-agregar">Add  <i class="fa-solid fa-heart"></i></button>
         </div>
     </div>
-</div>
-    `
-    contenedorProductos.appendChild(div)
+    `    
+    cardsContainer.appendChild(div);
+
+
     const boton = document.getElementById(`agregar${producto.id}`)
     boton.addEventListener('click', () => {
         agregarAlCarrito(producto.id)
@@ -62,7 +68,6 @@ const agregarAlCarrito = (prodId) => {
         console.log(carrito)    
     }
     actualizarCarrito()
-
 }
 
 
