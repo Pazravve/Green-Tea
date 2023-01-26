@@ -559,7 +559,7 @@ label{
 }
 
 .fa-solid{
-    font-size: 30px;
+    font-size: 25px;
     color: rgb(92, 158, 86);
     margin-left: 15px;
 
@@ -585,4 +585,59 @@ label{
 .card-body p{
     display: flex;
     justify-content: flex-start;
+}
+.card-body h5{
+    font-size: 25px;
+
+}
+
+.laconchaputa{
+    display: flex;
+    width: 100%!important;
+    flex-wrap: wrap;
+}
+
+
+#carritoCerrar{
+    border: 1px;
+    background-color: rgb(178, 207, 159);
+}
+
+.productoEnCarrito{
+    border-bottom: 3px solid rgb(190, 214, 190);
+    padding: 1em;
+}
+
+.btn-primary{
+    background-color: rgb(178, 207, 159);
+    border: 1px;
+}
+.btn i{
+    font-size: 40px;
+}
+.btn:hover{
+    background-color: rgb(178, 207, 159);
+}
+
+.botonEliminar{
+    border: 1px;
+    background-color: rgb(255, 255, 255);
+
+}
+.botonEliminar i{
+    color: rgb(202, 102, 102);
+}
+#botonCarrito{
+    border: 1px;
+    background-color: rgb(178, 207, 159) ;
+    font-size: 20px;
+}
+
+.totalProducto{
+    padding-left: 1em;
+}
+
+.editarItems{
+    background-color: rgb(239, 252, 238);
+    padding: 1em;
 }
