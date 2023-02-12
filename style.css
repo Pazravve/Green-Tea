@@ -647,13 +647,26 @@ label{
     flex-wrap: wrap;
 }
 
-.allCards {
-    display: flex;
-    width: 33%;
-    justify-content: center;
-    flex-wrap: wrap;
+
+#vaciar-carrito{
+    background-color: brown;
 }
 
-.allCards img{
-    height: 70%;
+.purchase{
+    display: flex;
+    justify-content: center;
+    margin: 1em;
+}
+
+.img-fluid{
+    max-width: 50%;
+}
+
+
+#activarFuncion{
+    opacity: 0;
+}
+
+#buttonFinalizar{
+    margin-bottom: 1em;
 }
